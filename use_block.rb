@@ -46,3 +46,11 @@ p data.join
 
 # sum(-)で先頭に-をつける
 p chars.sum('>') { |n| n.upcase }
+
+code = ["a", "b", "c", "d"]
+p code.map(&:upcase)
+
+p code.join('+')
+
+num = [1, 2, 3, 4]
+p num.select { |n| n.odd? }
