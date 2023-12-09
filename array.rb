@@ -41,3 +41,8 @@ puts "商=#{quo_rem[0]}, 余り=#{quo_rem[1]}"
 # 多重代入で受け取る
 quotient, remainer = 16.divmod(9)
 puts "商=#{quotient}, 余り=#{remainer}"
+
+# 値が連続する配列を作成
+p (1..5).to_a
+p [*1..6]
+
