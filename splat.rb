@@ -23,3 +23,10 @@ def c
 end
 
 p c
+
+def greet(*names)
+  "#{names.join('と')},こんにちは"
+end
+
+p greet("田中さん")
+p greet('田中さん', '鈴木さん')
