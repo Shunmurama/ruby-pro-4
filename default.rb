@@ -30,3 +30,10 @@ str = c[0]
 p str.upcase!
 # 要素０だけが変更される
 p c
+
+aa = 'sss'
+p aa << 'hhh'
+
+bb = 'mmm'
+p aa << bb
+p aa
