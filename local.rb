@@ -9,3 +9,4 @@ end
 
 # ブロック外のsumは何も変化しない
 puts sum
+
